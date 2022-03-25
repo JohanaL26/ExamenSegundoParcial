@@ -19,8 +19,9 @@ namespace SegundoExamen
             InitializeComponent();
         }
 
+        //CREACION DE OBJEOS CON CLASES
         ProductosAccs productoAccs = new ProductosAccs();
-        string operacion = string.Empty;
+        string operacion = string.Empty;//INCIALIZACION DE VARIABLE 
         Productos producto = new Productos();
 
 
@@ -33,6 +34,7 @@ namespace SegundoExamen
 
         private void ListarProductos()
         {
+            //ASIGNAR LOS VALORES DE LOS PRODUCTOS AL DATAGRIDVIEW
             ProductosDataGridView.DataSource = productoAccs.ListarProductos();
 
         }
@@ -40,6 +42,7 @@ namespace SegundoExamen
 
         private void HabilitarControles()
         {
+            //HABILITACION DE CONTROLES
             CodigoTextBox.Enabled = true;
             DescripcionTextBox.Enabled = true;
             PrecioTextBox.Enabled = true;
@@ -52,6 +55,7 @@ namespace SegundoExamen
 
         private void DeshabilitarControles()
         {
+            //DESHABILITACION DE CONTROLES
             CodigoTextBox.Enabled = false;
             DescripcionTextBox.Enabled = false;
             PrecioTextBox.Enabled = false;
@@ -64,6 +68,7 @@ namespace SegundoExamen
 
         private void LimpiarControles()
         {
+            //LIMPIAR CONTROLES
             CodigoTextBox.Clear();
             DescripcionTextBox.Clear();
             PrecioTextBox.Clear();
@@ -75,6 +80,7 @@ namespace SegundoExamen
         {
             try
             {
+                //VALIDACION DE CONTROLES PARA NO INGRESAR NINGUNO VACIO
                 if (string.IsNullOrEmpty(CodigoTextBox.Text))
                 {
                     errorProvider1.SetError(CodigoTextBox, "Ingrese el codigo");
@@ -103,6 +109,7 @@ namespace SegundoExamen
                     return;
                 }
 
+                //SE PASAN LOS PARÁMETROS A LOS TEXTBOXS
                 producto.Codigo = CodigoTextBox.Text;
                 producto.Descripcion = DescripcionTextBox.Text;
                 producto.Precio = Convert.ToDecimal(PrecioTextBox.Text);

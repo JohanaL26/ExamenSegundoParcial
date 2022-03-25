@@ -36,6 +36,7 @@ namespace SegundoExamen
 
             usuario = usuarioAccs.Login(UsuarioTextBox.Text, ClaveTextBox.Text);
 
+            //SENTENCIA PARA CUANDO SE INGRESEN DATOS INCORRECTOS
             if (usuario == null)
             {
                 MessageBox.Show("DATOS ERRONEOS");
@@ -44,9 +45,7 @@ namespace SegundoExamen
 
             MessageBox.Show("DATOS CORRECTOS");
 
-            //FrmProductos frmProductos= new FrmProductos();
-            //frmProductos.Show();
-
+            //CAREACION DE OBJETO PARA PASAR AL SIGUIENTE FORMULARIO
             FrmMenu frmMenu = new FrmMenu();
             frmMenu.Show();
             this.Hide();
@@ -57,6 +56,7 @@ namespace SegundoExamen
 
         private void CancelarButton_Click(object sender, EventArgs e)
         {
+            //CERRAR EL FORMULARIO
             this.Close();
         }
     }

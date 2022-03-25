@@ -51,134 +51,184 @@
             // ExistenciaTextBox
             // 
             this.ExistenciaTextBox.Enabled = false;
-            this.ExistenciaTextBox.Location = new System.Drawing.Point(250, 169);
+            this.ExistenciaTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExistenciaTextBox.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.ExistenciaTextBox.Location = new System.Drawing.Point(306, 183);
+            this.ExistenciaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ExistenciaTextBox.Name = "ExistenciaTextBox";
-            this.ExistenciaTextBox.Size = new System.Drawing.Size(149, 20);
+            this.ExistenciaTextBox.Size = new System.Drawing.Size(186, 26);
             this.ExistenciaTextBox.TabIndex = 6;
+            this.ExistenciaTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(165, 172);
+            this.label4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.label4.Location = new System.Drawing.Point(179, 187);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(84, 19);
             this.label4.TabIndex = 2;
             this.label4.Text = "Existencia";
             // 
             // PrecioTextBox
             // 
             this.PrecioTextBox.Enabled = false;
-            this.PrecioTextBox.Location = new System.Drawing.Point(250, 128);
+            this.PrecioTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrecioTextBox.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.PrecioTextBox.Location = new System.Drawing.Point(306, 133);
+            this.PrecioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PrecioTextBox.Name = "PrecioTextBox";
-            this.PrecioTextBox.Size = new System.Drawing.Size(149, 20);
+            this.PrecioTextBox.Size = new System.Drawing.Size(186, 26);
             this.PrecioTextBox.TabIndex = 7;
+            this.PrecioTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(174, 131);
+            this.label3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.label3.Location = new System.Drawing.Point(192, 136);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(56, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "Precio";
             // 
             // DescripcionTextBox
             // 
             this.DescripcionTextBox.Enabled = false;
-            this.DescripcionTextBox.Location = new System.Drawing.Point(250, 86);
+            this.DescripcionTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescripcionTextBox.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.DescripcionTextBox.Location = new System.Drawing.Point(306, 81);
+            this.DescripcionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DescripcionTextBox.MaxLength = 45;
             this.DescripcionTextBox.Name = "DescripcionTextBox";
-            this.DescripcionTextBox.Size = new System.Drawing.Size(149, 20);
+            this.DescripcionTextBox.Size = new System.Drawing.Size(186, 26);
             this.DescripcionTextBox.TabIndex = 8;
+            this.DescripcionTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(161, 89);
+            this.label2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.label2.Location = new System.Drawing.Point(173, 85);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Descripción";
             // 
             // CodigoTextBox
             // 
             this.CodigoTextBox.Enabled = false;
-            this.CodigoTextBox.Location = new System.Drawing.Point(250, 46);
+            this.CodigoTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CodigoTextBox.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.CodigoTextBox.Location = new System.Drawing.Point(306, 32);
+            this.CodigoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CodigoTextBox.Name = "CodigoTextBox";
-            this.CodigoTextBox.Size = new System.Drawing.Size(149, 20);
+            this.CodigoTextBox.Size = new System.Drawing.Size(186, 26);
             this.CodigoTextBox.TabIndex = 9;
+            this.CodigoTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(172, 49);
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.label1.Location = new System.Drawing.Point(189, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(59, 19);
             this.label1.TabIndex = 5;
             this.label1.Text = "Código";
             // 
             // CancelarButton
             // 
+            this.CancelarButton.BackColor = System.Drawing.Color.LavenderBlush;
             this.CancelarButton.Enabled = false;
-            this.CancelarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancelarButton.Location = new System.Drawing.Point(423, 218);
+            this.CancelarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CancelarButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelarButton.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.CancelarButton.Location = new System.Drawing.Point(600, 249);
+            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CancelarButton.Name = "CancelarButton";
-            this.CancelarButton.Size = new System.Drawing.Size(84, 24);
+            this.CancelarButton.Size = new System.Drawing.Size(126, 30);
             this.CancelarButton.TabIndex = 10;
             this.CancelarButton.Text = "CANCELAR";
-            this.CancelarButton.UseVisualStyleBackColor = true;
+            this.CancelarButton.UseVisualStyleBackColor = false;
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EliminarButton.Location = new System.Drawing.Point(333, 218);
+            this.EliminarButton.BackColor = System.Drawing.Color.LavenderBlush;
+            this.EliminarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.EliminarButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EliminarButton.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.EliminarButton.Location = new System.Drawing.Point(466, 249);
+            this.EliminarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(79, 24);
+            this.EliminarButton.Size = new System.Drawing.Size(118, 30);
             this.EliminarButton.TabIndex = 11;
             this.EliminarButton.Text = "ELIMINAR";
-            this.EliminarButton.UseVisualStyleBackColor = true;
+            this.EliminarButton.UseVisualStyleBackColor = false;
             this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
             // 
             // GuardarButton
             // 
+            this.GuardarButton.BackColor = System.Drawing.Color.LavenderBlush;
             this.GuardarButton.Enabled = false;
-            this.GuardarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuardarButton.Location = new System.Drawing.Point(231, 218);
+            this.GuardarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.GuardarButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuardarButton.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.GuardarButton.Location = new System.Drawing.Point(312, 249);
+            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(89, 24);
+            this.GuardarButton.Size = new System.Drawing.Size(134, 30);
             this.GuardarButton.TabIndex = 12;
             this.GuardarButton.Text = "GUARDAR";
-            this.GuardarButton.UseVisualStyleBackColor = true;
+            this.GuardarButton.UseVisualStyleBackColor = false;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
             // ModificarButton
             // 
-            this.ModificarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModificarButton.Location = new System.Drawing.Point(130, 218);
+            this.ModificarButton.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ModificarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ModificarButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificarButton.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.ModificarButton.Location = new System.Drawing.Point(161, 249);
+            this.ModificarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ModificarButton.Name = "ModificarButton";
-            this.ModificarButton.Size = new System.Drawing.Size(86, 24);
+            this.ModificarButton.Size = new System.Drawing.Size(129, 30);
             this.ModificarButton.TabIndex = 13;
             this.ModificarButton.Text = "MODIFICAR";
-            this.ModificarButton.UseVisualStyleBackColor = true;
+            this.ModificarButton.UseVisualStyleBackColor = false;
             this.ModificarButton.Click += new System.EventHandler(this.ModificarButton_Click_1);
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NuevoButton.Location = new System.Drawing.Point(46, 218);
+            this.NuevoButton.BackColor = System.Drawing.Color.LavenderBlush;
+            this.NuevoButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NuevoButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NuevoButton.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.NuevoButton.Location = new System.Drawing.Point(35, 249);
+            this.NuevoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NuevoButton.Name = "NuevoButton";
-            this.NuevoButton.Size = new System.Drawing.Size(69, 24);
+            this.NuevoButton.Size = new System.Drawing.Size(104, 30);
             this.NuevoButton.TabIndex = 14;
             this.NuevoButton.Text = "NUEVO";
-            this.NuevoButton.UseVisualStyleBackColor = true;
+            this.NuevoButton.UseVisualStyleBackColor = false;
             this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click);
             // 
             // ProductosDataGridView
             // 
+            this.ProductosDataGridView.BackgroundColor = System.Drawing.Color.LavenderBlush;
             this.ProductosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ProductosDataGridView.Location = new System.Drawing.Point(12, 248);
+            this.ProductosDataGridView.Location = new System.Drawing.Point(4, 305);
+            this.ProductosDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductosDataGridView.Name = "ProductosDataGridView";
-            this.ProductosDataGridView.Size = new System.Drawing.Size(580, 175);
+            this.ProductosDataGridView.Size = new System.Drawing.Size(768, 231);
             this.ProductosDataGridView.TabIndex = 15;
             // 
             // errorProvider1
@@ -187,9 +237,10 @@
             // 
             // FrmProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 438);
+            this.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.ClientSize = new System.Drawing.Size(777, 539);
             this.Controls.Add(this.ProductosDataGridView);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.EliminarButton);
@@ -204,6 +255,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.CodigoTextBox);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmProductos";
             this.Text = "FrmProductos";
             this.Load += new System.EventHandler(this.FrmProductos_Load);

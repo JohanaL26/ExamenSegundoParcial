@@ -82,6 +82,7 @@
             // 
             // ribbonControlAdv1.ribbonPanel1
             // 
+            this.toolStripTabItem1.Panel.BackColor = System.Drawing.SystemColors.Control;
             this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx1);
             this.toolStripTabItem1.Panel.Name = "ribbonPanel1";
             this.toolStripTabItem1.Panel.ScrollPosition = 0;
