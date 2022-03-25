@@ -209,5 +209,10 @@ namespace SegundoExamen
         {
             ProductosDataGridView.DataSource = productoAccs.ListarProductos();
         }
+
+        private void CancelarButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
